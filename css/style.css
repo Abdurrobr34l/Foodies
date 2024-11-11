@@ -7,7 +7,6 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #1d1d1f;
-  background-color: red;
 }
 
 html {
@@ -77,4 +76,34 @@ i {
 
 .section-padding {
   padding: clamp(3.75rem, 5vw, 6.25rem) 0 clamp(3.75rem, 5vw, 8.125rem) 0;
+}
+
+.header {
+  padding: 0.625rem 0;
+  background-color: #f3fcf7;
+}
+.header__navbar {
+  padding: 0;
+}
+.header__logo a {
+  font-size: clamp(1.5625rem, 3vw + 0.625rem, 1.875rem);
+  font-weight: 500;
+  color: #06C167;
+}
+.header .navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+.header__menu .active {
+  color: #06C167 !important;
+}
+.header__menu a {
+  font-weight: 500;
+}
+.header__menu a:hover {
+  color: #06C167;
+}
+.header__menu .navbar-nav {
+  gap: 20px;
 }
