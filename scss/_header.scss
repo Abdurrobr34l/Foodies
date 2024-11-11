@@ -12,11 +12,33 @@
       font-size: clamp(px-to-rem(25px), 3vw + px-to-rem(10px), px-to-rem(30px));
       font-weight: 500;
       color: $secondary-clr;
+
+      &:hover {
+        color: $secondary-clr;
+      }
     }
   }
 
   .navbar-collapse {
     flex-grow: 0;
+  }
+
+  &__toggler {
+
+    .navbar-toggler:focus {
+      box-shadow: none;
+      outline: px-to-rem(3px) solid $secondary-clr;
+
+      .toggler {
+        color: $secondary-clr
+      }
+    }
+
+    .toggler {
+      padding: px-to-rem(3px) 0;
+      font-size: px-to-rem(25px);
+      color: $primary-clr;
+    }
   }
 
   &__menu {

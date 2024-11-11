@@ -1,3 +1,5 @@
+@import "./function";
+
 /* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
 @media (max-width: 575.98px) {
     // HEADER START
@@ -7,6 +9,8 @@
       }
   
       &__menu {
+        padding: px-to-rem(20px) 0 px-to-rem(40px);
+        
         .navbar-nav {
           gap: 60px;
         }
@@ -28,6 +32,8 @@
       }
   
       &__menu {
+        padding: px-to-rem(20px) 0 px-to-rem(40px);
+
         .navbar-nav {
           gap: 60px;
         }
@@ -49,6 +55,8 @@
     }
 
     &__menu {
+      padding: px-to-rem(20px) 0 px-to-rem(40px);
+
       .navbar-nav {
         gap: 60px;
       }
