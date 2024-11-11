@@ -1,0 +1,7 @@
+// Define the base font size for the root (1rem = 16px here)
+$base-font-size: 16px;
+
+// Function to convert px to rem
+@function px-to-rem($px-value) {
+  @return #{$px-value / $base-font-size}rem;
+}

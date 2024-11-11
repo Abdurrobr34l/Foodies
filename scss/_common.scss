@@ -1,0 +1,24 @@
+// Padding
+
+
+// Font Size
+.hero-heading {
+  font-size: clamp(px-to-rem(50px), 4.8vw + px-to-rem(17px), px-to-rem(70px));
+  font-weight: 600;
+}
+
+.hero-text {
+  color: hsla(240, 3%, 12%, 0.749);
+}
+
+.title {
+  font-size: clamp(px-to-rem(35px), 3.4vw + px-to-rem(16px), px-to-rem(60px));
+  font-weight: 500;
+  width: 15ch;
+  line-height: px-to-rem(72.61px);
+}
+
+.mini-title {
+  font-size: px-to-rem(15px);
+  font-weight: 500;
+}

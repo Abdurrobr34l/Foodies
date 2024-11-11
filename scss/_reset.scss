@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./variable";
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: $primary-clr;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: $secondary-clr;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0;
+}
+
+a {
+  font-weight: 400;
+  color: $primary-clr;
+  text-decoration: none;
+
+  &:hover {
+    color: $secondary-clr;
+  }
+}
+
+ul,
+ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+// Icons Color
+i {
+  color: $secondary-clr;
+}
+
+.arrow {
+  color: #fff;
+}
+
+.social {
+  color: $primary-clr;
+}
