@@ -24,13 +24,12 @@
   }
 
   &__toggler {
-
     .navbar-toggler:focus {
       box-shadow: none;
       outline: px-to-rem(3px) solid $secondary-clr;
 
       .toggler {
-        color: $secondary-clr
+        color: $secondary-clr;
       }
     }
 
@@ -42,9 +41,17 @@
   }
 
   &__menu {
-    .active {
-      color: $secondary-clr !important;
-    }
+
+    // .nav-item {
+    //   display: flex;
+    //   flex-direction: column;
+    //   align-items: center;
+
+    //   span {
+    //     margin-top: -18px;
+    //     color: $secondary-clr;
+    //   }
+    // }
 
     a {
       font-weight: 500;

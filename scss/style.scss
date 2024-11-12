@@ -1,7 +1,9 @@
-@import "./function";
-@import "./reset";
-@import "./common";
-@import "./variable";
+@import "./function/function";
+@import "./utilitis/reset";
+@import "./utilitis/common";
+@import "./utilitis/variable";
 
 // Section scss link
-@import "./header";
+@import "./sections/header";
+@import "./sections/whyus";
+@import "./sections/benefit";

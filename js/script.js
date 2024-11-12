@@ -15,13 +15,7 @@ document.addEventListener("click", function (event) {
       toggler.blur();
   }
 });
-
-
-
-
-// TOGGLER END
-
-
+// TOGGLER END 
 
 // jquery
 $(document).ready(function () {

@@ -1,49 +1,91 @@
-@import "./function";
+@import "./function/function";
 
 /* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
 @media (max-width: 575.98px) {
-    // HEADER START
-    .header {
-      &__container {
-        gap: 30px;
+  // HEADER START
+  .header {
+    &__container {
+      gap: 30px;
+    }
+
+    &__menu {
+      padding: px-to-rem(20px) 0 px-to-rem(40px);
+
+      .navbar-nav {
+        gap: 60px;
       }
-  
-      &__menu {
-        padding: px-to-rem(20px) 0 px-to-rem(40px);
-        
-        .navbar-nav {
-          gap: 60px;
-        }
-  
-        .nav-item {
-          margin-inline: auto;
-        }
+
+      .nav-item {
+        margin-inline: auto;
       }
     }
-    // HEADER END
+  }
+  // HEADER END
+
+  // WHY CHOOSE US START
+  .whyus {
+    &__container {
+      padding: 0 20px;
+    }
+
+    &__box {
+      flex-direction: column;
+      width: 50%;
+
+      &:nth-child(-n + 2) {
+        margin-bottom: 50px;
+      }
+    }
+
+    &__content {
+      text-align: center;
+
+      h2 {
+        line-height: px-to-rem(28px);
+      }
+
+      p {
+        line-height: px-to-rem(15px);
+      }
+    }
+  }
+  // WHY CHOOSE US END
 }
 
 /* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    // HEADER START
-    .header {
-      &__container {
-        gap: 30px;
-      }
-  
-      &__menu {
-        padding: px-to-rem(20px) 0 px-to-rem(40px);
+  // HEADER START
+  .header {
+    &__container {
+      gap: 30px;
+    }
 
-        .navbar-nav {
-          gap: 60px;
-        }
-  
-        .nav-item {
-          margin-inline: auto;
-        }
+    &__menu {
+      padding: px-to-rem(20px) 0 px-to-rem(40px);
+
+      .navbar-nav {
+        gap: 60px;
+      }
+
+      .nav-item {
+        margin-inline: auto;
       }
     }
-    // HEADER END
+  }
+  // HEADER END
+
+  // WHY CHOOSE US START
+  .whyus {
+    &__row {
+      gap: px-to-rem(20px);
+    }
+
+    &__box {
+      margin-inline: auto;
+      width: 48%;
+    }
+  }
+  // WHY CHOOSE US END
 }
 
 /* MEDIUM DEVICES (TABLETS, 768px and up) */
@@ -67,6 +109,19 @@
     }
   }
   // HEADER END
+
+  // WHY CHOOSE US START
+  .whyus {
+    &__row {
+      gap: px-to-rem(50px);
+    }
+
+    &__box {
+      margin-inline: auto;
+      width: 45%;
+    }
+  }
+  // WHY CHOOSE US END
 }
 
 /* LARGE DEVICES (DESKTOPS, 992px and up) */

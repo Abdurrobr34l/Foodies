@@ -1,5 +1,9 @@
-// Padding
+@import "../function/function";
 
+// Padding
+.benefit {
+  margin: px-to-rem(100px) 0 px-to-rem(100px);
+}
 
 // Font Size
 .hero-heading {

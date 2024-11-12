@@ -53,6 +53,10 @@ i {
   color: #1d1d1f;
 }
 
+.benefit {
+  margin: 6.25rem 0 6.25rem;
+}
+
 .hero-heading {
   font-size: clamp(3.125rem, 4.8vw + 1.0625rem, 4.375rem);
   font-weight: 600;
@@ -111,9 +115,6 @@ i {
   font-size: 1.5625rem;
   color: #1d1d1f;
 }
-.header__menu .active {
-  color: #06C167 !important;
-}
 .header__menu a {
   font-weight: 500;
 }
@@ -122,4 +123,55 @@ i {
 }
 .header__menu .navbar-nav {
   gap: 20px;
+}
+
+.whyus__row {
+  padding: 3.4375rem 0;
+  border-top: 0.125rem solid #eaeaea;
+  border-bottom: 0.125rem solid #eaeaea;
+}
+.whyus__box {
+  gap: 1.25rem;
+}
+.whyus__icon i {
+  padding: 1.25rem;
+  background-color: #f3fcf7;
+  border-radius: 0.5rem;
+}
+.whyus__content h2 {
+  font-size: 1.0625rem;
+  line-height: 1.5625rem;
+}
+.whyus__content p {
+  font-size: 0.875rem;
+}
+
+.benefit__row {
+  gap: 80px;
+}
+.benefit__image {
+  padding: 0 50px 90px;
+  background-color: #f3fcf7;
+}
+.benefit__image img {
+  width: 27.8125rem;
+  height: 31.875rem;
+}
+.benefit__contents h3 {
+  margin: 10px 0 50px;
+}
+.benefit__contents li:not(:first-child) {
+  margin-top: 10px;
+}
+.benefit__contents li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.benefit__contents li i {
+  font-size: 20px;
 }

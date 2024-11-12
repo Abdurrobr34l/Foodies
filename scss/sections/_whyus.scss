@@ -1,0 +1,35 @@
+@import "../function/function";
+
+.whyus {
+  
+  &__row {
+    padding: px-to-rem(55px) 0;
+    border-top: px-to-rem(2px) solid #eaeaea;
+    border-bottom: px-to-rem(2px) solid #eaeaea;
+  }
+  
+  &__box {
+    gap: px-to-rem(20px);
+  }
+
+  &__icon {
+    
+    i {
+      padding: px-to-rem(20px);
+      background-color: $bg-clr;
+      border-radius: px-to-rem(8px);
+    }
+  }
+
+  &__content {
+    h2 {
+      font-size: px-to-rem(17px);
+      line-height: px-to-rem(25px);
+    }
+    p {
+      font-size: px-to-rem(14px);
+    }
+    
+  }
+
+}

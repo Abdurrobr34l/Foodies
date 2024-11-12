@@ -12,6 +12,28 @@
   .header__menu .nav-item {
     margin-inline: auto;
   }
+  .whyus__container {
+    padding: 0 20px;
+  }
+  .whyus__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 50%;
+  }
+  .whyus__box:nth-child(-n+2) {
+    margin-bottom: 50px;
+  }
+  .whyus__content {
+    text-align: center;
+  }
+  .whyus__content h2 {
+    line-height: 1.75rem;
+  }
+  .whyus__content p {
+    line-height: 0.9375rem;
+  }
 }
 /* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -27,6 +49,13 @@
   .header__menu .nav-item {
     margin-inline: auto;
   }
+  .whyus__row {
+    gap: 1.25rem;
+  }
+  .whyus__box {
+    margin-inline: auto;
+    width: 48%;
+  }
 }
 /* MEDIUM DEVICES (TABLETS, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -41,6 +70,13 @@
   }
   .header__menu .nav-item {
     margin-inline: auto;
+  }
+  .whyus__row {
+    gap: 3.125rem;
+  }
+  .whyus__box {
+    margin-inline: auto;
+    width: 45%;
   }
 }
 /* LARGE DEVICES (DESKTOPS, 992px and up) */
