@@ -1,12 +1,7 @@
-// Padding
-.section-padding {
-  // padding: clamp(60px, 5vw, 100px) 0 clamp(60px, 5vw, 130px) 0;
-  padding: clamp(px-to-rem(60px), 5vw, px-to-rem(100px)) 0 clamp(px-to-rem(60px), 5vw, px-to-rem(130px)) 0;
-}
-
 // Text Color
 $primary-clr: #1d1d1f;
 $secondary-clr: #06C167;
 
 // Background Color
 $bg-clr: #f3fcf7;
+$bg-mobile-clr: #F0F1EC;

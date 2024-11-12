@@ -1,8 +1,14 @@
 @import "../function/function";
 
 // Padding
-.benefit {
-  margin: px-to-rem(100px) 0 px-to-rem(100px);
+// .benefit {
+//   margin: px-to-rem(100px) 0 px-to-rem(100px);
+// }
+
+// Padding
+.section-padding {
+  // padding: clamp(60px, 5vw, 100px) 0 clamp(60px, 5vw, 130px) 0;
+  padding: clamp(px-to-rem(60px), 5vw, px-to-rem(100px)) 0 clamp(px-to-rem(60px), 5vw, px-to-rem(130px)) 0;
 }
 
 // Font Size

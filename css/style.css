@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-.section-padding {
-  padding: clamp(3.75rem, 5vw, 6.25rem) 0 clamp(3.75rem, 5vw, 8.125rem) 0;
-}
-
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -53,8 +49,8 @@ i {
   color: #1d1d1f;
 }
 
-.benefit {
-  margin: 6.25rem 0 6.25rem;
+.section-padding {
+  padding: clamp(3.75rem, 5vw, 6.25rem) 0 clamp(3.75rem, 5vw, 8.125rem) 0;
 }
 
 .hero-heading {
@@ -76,10 +72,6 @@ i {
 .mini-title {
   font-size: 0.9375rem;
   font-weight: 500;
-}
-
-.section-padding {
-  padding: clamp(3.75rem, 5vw, 6.25rem) 0 clamp(3.75rem, 5vw, 8.125rem) 0;
 }
 
 .header {
@@ -147,10 +139,10 @@ i {
 }
 
 .benefit__row {
-  gap: 80px;
+  gap: 5rem;
 }
 .benefit__image {
-  padding: 0 50px 90px;
+  padding: 0 3.125rem 5.625rem;
   background-color: #f3fcf7;
 }
 .benefit__image img {
@@ -158,20 +150,20 @@ i {
   height: 31.875rem;
 }
 .benefit__contents h3 {
-  margin: 10px 0 50px;
+  margin: 0.625rem 0 3.75rem;
 }
 .benefit__contents li:not(:first-child) {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 .benefit__contents li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 .benefit__contents li i {
-  font-size: 20px;
+  font-size: 1.25rem;
 }

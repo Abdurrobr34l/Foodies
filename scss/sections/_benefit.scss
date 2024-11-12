@@ -2,11 +2,11 @@
 
 .benefit {
   &__row {
-    gap: 80px;
+    gap: px-to-rem(80px);
   }
 
   &__image {
-    padding: 0 50px 90px;
+    padding: 0 px-to-rem(50px) px-to-rem(90px);
     background-color: $bg-clr;
 
     img {
@@ -17,20 +17,20 @@
 
   &__contents {
     h3 {
-      margin: 10px 0 50px;
+      margin: px-to-rem(10px) 0 px-to-rem(60px);
     }
 
     li:not(:first-child) {
-      margin-top: 10px;
+      margin-top: px-to-rem(10px);
     }
 
     li {
       display: flex;
-      gap: 10px;
+      gap: px-to-rem(10px);
       align-items: center;
 
       i {
-        font-size: 20px;
+        font-size: px-to-rem(20px);
       }
     }
   }
