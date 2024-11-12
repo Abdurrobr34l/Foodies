@@ -1,0 +1,45 @@
+.features {
+  &__row {
+    padding: 0;
+  }
+  &__boxes {
+    margin-top: px-to-rem(50px);
+  }
+
+  &__box {
+    padding: 0;
+    background-color: $bg-clr;
+
+    &-contents {
+      padding: 0 px-to-rem(30px);
+
+      p {
+        margin: px-to-rem(25px) 0 px-to-rem(35px);
+      }
+    }
+
+    &-button {
+      display: inline-block;
+      padding: px-to-rem(10px);
+      background-color: #e6f9f0;
+
+      &:hover {
+        outline: px-to-rem(2px) solid $secondary-clr;
+        cursor: pointer;
+      }
+      &:hover a,
+      &:hover i {
+        color: $secondary-clr;
+      }
+
+      a {
+        color: $secondary-clr;
+      }
+
+      i {
+        color: $secondary-clr;
+        margin-left: px-to-rem(10px);
+      }
+    }
+  }
+}

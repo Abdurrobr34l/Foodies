@@ -1,5 +1,8 @@
 /* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
 @media (max-width: 575.98px) {
+  .title {
+    width: 100%;
+  }
   .header__container {
     gap: 30px;
   }
@@ -33,6 +36,41 @@
   }
   .whyus__content p {
     line-height: 0.9375rem;
+  }
+  .benefit__row {
+    padding: 0 0.625rem;
+  }
+  .benefit__contents {
+    text-align: center;
+  }
+  .benefit__contents ul {
+    padding-left: 1.25rem;
+  }
+  .benefit__image {
+    padding: 0 1.5625rem 1.5625rem;
+    background-color: #F0F1EC;
+  }
+  .benefit__image img {
+    margin-top: -1.875rem;
+  }
+  .stars__row {
+    padding: 0 0.625rem;
+  }
+  .stars__image {
+    padding: 0 1.5625rem 1.5625rem;
+    background-color: #F0F1EC;
+  }
+  .stars__image img {
+    margin-top: -3.125rem;
+  }
+  .stars__contents {
+    text-align: center;
+  }
+  .stars__contents-status .box {
+    width: 100%;
+  }
+  .stars__button {
+    display: block;
   }
 }
 /* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
@@ -80,5 +118,13 @@
   }
 }
 /* LARGE DEVICES (DESKTOPS, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .benefit__image {
+    padding: 0 1.875rem 3.75rem;
+  }
+  .stars__contents-row {
+    gap: 0.625rem;
+  }
+}
 /* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */
 /* EXTRA EXTRA LARGE DEVICES (LARGE DESKTOPS, 1400px and up) */

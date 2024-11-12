@@ -2,7 +2,7 @@
 
 .benefit {
   &__row {
-    gap: px-to-rem(80px);
+    gap: clamp(px-to-rem(60px), 5vw, px-to-rem(80px));
   }
 
   &__image {
@@ -16,9 +16,6 @@
   }
 
   &__contents {
-    h3 {
-      margin: px-to-rem(10px) 0 px-to-rem(60px);
-    }
 
     li:not(:first-child) {
       margin-top: px-to-rem(10px);

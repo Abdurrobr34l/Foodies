@@ -1,7 +1,14 @@
 @import "./function/function";
+@import "./utilitis/variable";
 
 /* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
 @media (max-width: 575.98px) {
+  // COMMON STYLE CSS START
+  .title {
+    width: 100%;
+  }
+  // COMMON STYLE CSS END
+
   // HEADER START
   .header {
     &__container {
@@ -50,6 +57,62 @@
     }
   }
   // WHY CHOOSE US END
+
+  // BENEFIT START
+  .benefit {
+    &__row {
+      padding: 0 px-to-rem(10px);
+    }
+
+    &__contents {
+      text-align: center;
+
+      ul {
+        padding-left: px-to-rem(20px);
+      }
+    }
+
+    &__image {
+      padding: 0 px-to-rem(25px) px-to-rem(25px);
+      background-color: $bg-mobile-clr;
+
+      img {
+        margin-top: px-to-rem(-30px);
+      }
+    }
+  }
+  // BENEFIT END
+
+  // STARS START
+  .stars {
+    &__row {
+      padding: 0 px-to-rem(10px);
+    }
+
+    &__image {
+      padding: 0 px-to-rem(25px) px-to-rem(25px);
+      background-color: $bg-mobile-clr;
+
+      img {
+        margin-top: px-to-rem(-50px);
+      }
+    }
+
+    &__contents {
+      text-align: center;
+
+      &-status {
+        .box {
+          width: 100%;
+        }
+      }
+    }
+
+    &__button {
+      display: block;
+    }
+  }
+  // STARS END
 }
 
 /* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
@@ -126,6 +189,23 @@
 
 /* LARGE DEVICES (DESKTOPS, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  // BENEFIT START
+  .benefit {
+    &__image {
+      padding: 0 px-to-rem(30px) px-to-rem(60px);
+    }
+  }
+  // BENEFIT END
+
+  // STARS START
+  .stars {
+    &__contents {
+      &-row {
+        gap: px-to-rem(10px);
+      }
+    }
+  }
+  // STARS END
 }
 
 /* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */
