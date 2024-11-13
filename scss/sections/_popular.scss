@@ -1,0 +1,49 @@
+.popular {
+
+  &__title {
+    h3 {
+      width: 100%;
+    }
+  }
+
+  &__product {
+    padding: px-to-rem(25px) px-to-rem(40px) px-to-rem(30px);
+    outline: px-to-rem(2px) solid $bg-mobile-clr;
+
+    &:hover {
+      outline: px-to-rem(4px) solid $secondary-clr;
+    }
+  }
+
+  &__info {
+    .no {
+      margin-right: px-to-rem(5px);
+      color: #767675;
+      text-decoration: line-through;
+    }
+    .yes {
+      color: $secondary-clr;
+    }
+  }
+
+  &__button {
+    border: px-to-rem(2px) solid;
+    display: block;
+    padding: px-to-rem(18px) px-to-rem(30px);
+    text-align: center;
+    color: $secondary-clr;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    a,
+    i {
+      color: $secondary-clr;
+    }
+
+    i {
+      margin-left: px-to-rem(10px);
+    }
+  }
+}

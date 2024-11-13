@@ -113,6 +113,74 @@
     }
   }
   // STARS END
+
+  // FEATURES START
+  .features {
+    &__boxes {
+      padding: 0 px-to-rem(10px);
+    }
+
+    &__box {
+      flex-direction: column;
+
+      &:nth-of-type(3) {
+        flex-direction: column-reverse;
+      }
+      &:nth-of-type(4) {
+        flex-direction: column-reverse;
+      }
+
+      &-image {
+        padding: 0 px-to-rem(10px);
+      }
+
+      &-contents {
+        padding: px-to-rem(40px) px-to-rem(40px) px-to-rem(30px) px-to-rem(30px);
+        border: px-to-rem(2px) solid $secondary-clr;
+      }
+    }
+  }
+  // FEATURES END
+
+  // POPULAR START
+  .popular {
+    &__title {
+      text-align: center;
+    }
+
+    &__products {
+      gap: px-to-rem(40px);
+    }
+  }
+  // POPULAR END
+
+    // FOOTER START
+    .footer {
+      &__box {
+        text-align: center;
+          margin-bottom: px-to-rem(50px);
+  
+        &-text {
+          p {
+            padding-right: 0;
+          }
+        } 
+  
+        &-social,
+        &-email {
+          margin-inline: auto;
+        }
+
+        &-email {
+          flex-direction: column;
+        }
+      }
+  
+      &__box-four {
+        margin-bottom: 0;
+      }
+    }
+    // FOOTER END
 }
 
 /* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
@@ -149,6 +217,71 @@
     }
   }
   // WHY CHOOSE US END
+
+  // FEATURES START
+  .features {
+    &__boxes {
+      padding: 0 px-to-rem(10px);
+    }
+
+    &__box {
+      flex-direction: column;
+
+      &:nth-of-type(3) {
+        flex-direction: column-reverse;
+      }
+      &:nth-of-type(4) {
+        flex-direction: column-reverse;
+      }
+
+      &-image {
+        padding: 0 px-to-rem(10px);
+        background-color: #fff;
+      }
+
+      &-contents {
+        padding: px-to-rem(40px) px-to-rem(40px) px-to-rem(30px) px-to-rem(30px);
+        border: px-to-rem(2px) solid $secondary-clr;
+      }
+    }
+  }
+  // FEATURES END
+
+  // POPULAR START
+  .popular {
+    &__title {
+      text-align: center;
+    }
+
+    &__products {
+      gap: px-to-rem(40px);
+    }
+  }
+  // POPULAR END
+
+  // FOOTER START
+  .footer {
+    &__box {
+      text-align: center;
+        margin-bottom: px-to-rem(50px);
+
+      &-text {
+        p {
+          padding-right: 0;
+        }
+      } 
+
+      &-social,
+      &-email {
+        margin-inline: auto;
+      }
+    }
+
+    &__box-four {
+      margin-bottom: 0;
+    }
+  }
+  // FOOTER END
 }
 
 /* MEDIUM DEVICES (TABLETS, 768px and up) */
@@ -185,6 +318,41 @@
     }
   }
   // WHY CHOOSE US END
+
+  // POPULAR START
+  .popular {
+    &__products {
+      :nth-child(3) {
+        margin-top: px-to-rem(20px);
+      }
+      :nth-child(4) {
+        margin-top: px-to-rem(20px);
+      }
+    }
+  }
+  // POPULAR END
+
+  // FOOTER START
+  .footer {
+
+    &__box {
+      &-text {
+        p {
+          padding-right: px-to-rem(80px);
+        }
+      }
+
+      &-email {
+        flex-direction: column;
+      }
+    }
+
+    &__box-two,
+    &__box-three {
+      margin-top: px-to-rem(30px);
+    }
+  }
+  // FOOTER END
 }
 
 /* LARGE DEVICES (DESKTOPS, 992px and up) */
@@ -206,6 +374,56 @@
     }
   }
   // STARS END
+
+  // FEATURES START
+  .features {
+    &__box {
+      &-contents {
+        h2 {
+          font-size: px-to-rem(25px);
+        }
+      }
+    }
+  }
+  // FEATURES END
+
+  // POPULAR START
+  .popular {
+    &__product {
+      padding: px-to-rem(20px) px-to-rem(20px) px-to-rem(25px);
+    }
+
+    &__info {
+      margin: px-to-rem(20px) 0 px-to-rem(30px);
+    }
+
+    &__button {
+      padding: px-to-rem(10px);
+    }
+  }
+  // POPULAR END
+
+  // FOOTER START
+  .footer {
+    &__box {
+      &-text {
+        p {
+          padding-right: px-to-rem(80px);
+        }
+      }
+
+      &-email {
+        flex-direction: column;
+      }
+    }
+
+    &__box-four {
+      p {
+        padding-right: px-to-rem(40px);
+      }
+    }
+  }
+  // FOOTER END
 }
 
 /* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */

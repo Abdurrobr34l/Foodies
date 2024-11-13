@@ -1,0 +1,48 @@
+.footer {
+  &__box {
+
+    &-title {
+      h2 {
+        font-size: px-to-rem(24px);
+        font-weight: 500;
+      }
+    }
+
+    &-text {
+      p {
+        padding-right: px-to-rem(120px);
+      }
+    }
+
+    &-social {
+      a:hover i{
+        color: $secondary-clr;
+      }
+    }
+
+    &-email {
+      input,
+      button {
+        padding: px-to-rem(16px) px-to-rem(20px);
+        background-color: $bg-mobile-clr;
+        border: none;
+      }
+
+      input:focus {
+        outline-color: $secondary-clr;
+      }
+
+      button {
+        padding: px-to-rem(16px) px-to-rem(30px);
+        color: #fff;
+        background-color: $secondary-clr;
+      }
+    }
+  }
+
+  &__box-four {
+    p {
+      padding-right: px-to-rem(80px);
+    }
+  }
+}

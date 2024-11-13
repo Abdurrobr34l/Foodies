@@ -1,0 +1,28 @@
+.contact {
+  &__container {
+    place-content: center;
+    height: px-to-rem(460px);
+    background-image: url(../../image/contact/img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+      margin-inline: auto;
+      font-weight: 600;
+      color: #fff;
+      line-height: clamp(px-to-rem(40px), 5vw + px-to-rem(30px), px-to-rem(70px));
+    }
+  }
+
+  &__button {
+    a {
+    display: inline-block;
+    place-content: center;
+    margin-top: px-to-rem(30px);
+    width: clamp(px-to-rem(210px), 5vw + px-to-rem(170px), px-to-rem(290px));
+    height: px-to-rem(60px);
+    background-color: $secondary-clr;
+      color: #fff;
+    }
+  }
+}

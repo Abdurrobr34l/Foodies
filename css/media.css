@@ -72,6 +72,59 @@
   .stars__button {
     display: block;
   }
+  .features__boxes {
+    padding: 0 0.625rem;
+  }
+  .features__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features__box:nth-of-type(3) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .features__box:nth-of-type(4) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .features__box-image {
+    padding: 0 0.625rem;
+  }
+  .features__box-contents {
+    padding: 2.5rem 2.5rem 1.875rem 1.875rem;
+    border: 0.125rem solid #06C167;
+  }
+  .popular__title {
+    text-align: center;
+  }
+  .popular__products {
+    gap: 2.5rem;
+  }
+  .footer__box {
+    text-align: center;
+    margin-bottom: 3.125rem;
+  }
+  .footer__box-text p {
+    padding-right: 0;
+  }
+  .footer__box-social, .footer__box-email {
+    margin-inline: auto;
+  }
+  .footer__box-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__box-four {
+    margin-bottom: 0;
+  }
 }
 /* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -93,6 +146,54 @@
   .whyus__box {
     margin-inline: auto;
     width: 48%;
+  }
+  .features__boxes {
+    padding: 0 0.625rem;
+  }
+  .features__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features__box:nth-of-type(3) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .features__box:nth-of-type(4) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .features__box-image {
+    padding: 0 0.625rem;
+    background-color: #fff;
+  }
+  .features__box-contents {
+    padding: 2.5rem 2.5rem 1.875rem 1.875rem;
+    border: 0.125rem solid #06C167;
+  }
+  .popular__title {
+    text-align: center;
+  }
+  .popular__products {
+    gap: 2.5rem;
+  }
+  .footer__box {
+    text-align: center;
+    margin-bottom: 3.125rem;
+  }
+  .footer__box-text p {
+    padding-right: 0;
+  }
+  .footer__box-social, .footer__box-email {
+    margin-inline: auto;
+  }
+  .footer__box-four {
+    margin-bottom: 0;
   }
 }
 /* MEDIUM DEVICES (TABLETS, 768px and up) */
@@ -116,6 +217,24 @@
     margin-inline: auto;
     width: 45%;
   }
+  .popular__products :nth-child(3) {
+    margin-top: 1.25rem;
+  }
+  .popular__products :nth-child(4) {
+    margin-top: 1.25rem;
+  }
+  .footer__box-text p {
+    padding-right: 5rem;
+  }
+  .footer__box-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__box-two, .footer__box-three {
+    margin-top: 1.875rem;
+  }
 }
 /* LARGE DEVICES (DESKTOPS, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -124,6 +243,30 @@
   }
   .stars__contents-row {
     gap: 0.625rem;
+  }
+  .features__box-contents h2 {
+    font-size: 1.5625rem;
+  }
+  .popular__product {
+    padding: 1.25rem 1.25rem 1.5625rem;
+  }
+  .popular__info {
+    margin: 1.25rem 0 1.875rem;
+  }
+  .popular__button {
+    padding: 0.625rem;
+  }
+  .footer__box-text p {
+    padding-right: 5rem;
+  }
+  .footer__box-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__box-four p {
+    padding-right: 2.5rem;
   }
 }
 /* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */

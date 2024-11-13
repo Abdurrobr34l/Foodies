@@ -262,3 +262,90 @@ i {
   color: #06C167;
   margin-left: 0.625rem;
 }
+
+.popular__title h3 {
+  width: 100%;
+}
+.popular__product {
+  padding: 1.5625rem 2.5rem 1.875rem;
+  outline: 0.125rem solid #F0F1EC;
+}
+.popular__product:hover {
+  outline: 0.25rem solid #06C167;
+}
+.popular__info .no {
+  margin-right: 0.3125rem;
+  color: #767675;
+  text-decoration: line-through;
+}
+.popular__info .yes {
+  color: #06C167;
+}
+.popular__button {
+  border: 0.125rem solid;
+  display: block;
+  padding: 1.125rem 1.875rem;
+  text-align: center;
+  color: #06C167;
+}
+.popular__button:hover {
+  cursor: pointer;
+}
+.popular__button a,
+.popular__button i {
+  color: #06C167;
+}
+.popular__button i {
+  margin-left: 0.625rem;
+}
+
+.contact__container {
+  place-content: center;
+  height: 28.75rem;
+  background-image: url(../../image/contact/img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact__container h1 {
+  margin-inline: auto;
+  font-weight: 600;
+  color: #fff;
+  line-height: clamp(2.5rem, 5vw + 1.875rem, 4.375rem);
+}
+.contact__button a {
+  display: inline-block;
+  place-content: center;
+  margin-top: 1.875rem;
+  width: clamp(13.125rem, 5vw + 10.625rem, 18.125rem);
+  height: 3.75rem;
+  background-color: #06C167;
+  color: #fff;
+}
+
+.footer__box-title h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.footer__box-text p {
+  padding-right: 7.5rem;
+}
+.footer__box-social a:hover i {
+  color: #06C167;
+}
+.footer__box-email input,
+.footer__box-email button {
+  padding: 1rem 1.25rem;
+  background-color: #F0F1EC;
+  border: none;
+}
+.footer__box-email input:focus {
+  outline-color: #06C167;
+}
+.footer__box-email button {
+  padding: 1rem 1.875rem;
+  color: #fff;
+  background-color: #06C167;
+}
+.footer__box-four p {
+  padding-right: 5rem;
+}
