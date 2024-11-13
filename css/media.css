@@ -223,8 +223,14 @@
   .popular__products :nth-child(4) {
     margin-top: 1.25rem;
   }
+  .footer__row {
+    text-align: center;
+  }
   .footer__box-text p {
-    padding-right: 5rem;
+    padding-right: 0;
+  }
+  .footer__box-social {
+    margin-inline: auto;
   }
   .footer__box-email {
     -webkit-box-orient: vertical;

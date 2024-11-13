@@ -334,12 +334,20 @@
 
   // FOOTER START
   .footer {
+    &__row {
+      text-align: center;
+    }
 
     &__box {
+
       &-text {
         p {
-          padding-right: px-to-rem(80px);
+          padding-right: 0;
         }
+      }
+
+      &-social {
+        margin-inline: auto;
       }
 
       &-email {

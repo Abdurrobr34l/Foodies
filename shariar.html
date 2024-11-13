@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css"
+      integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .header {
+        background-color: #f3fcf7;
+      }
+      .hero {
+        background-color: #f3fcf7;
+        height: 59rem;
+        padding-top: 30px;
+      }
+      .hero-text {
+        text-align: center;
+      }
+      .hero-text h1 {
+        margin-top: 30px;
+        font-size: 65px;
+        margin-bottom: 30px;
+      }
+      .hero-text p {
+        margin-bottom: 80px;
+      }
+      .hero-text a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #06c167;
+        padding: 20px 108px;
+      }
+      #arrow-icon {
+        margin-left: 20px;
+      }
+      .hero-img {
+        position: relative;
+      }
+      .hero-img :nth-child(1) {
+        width: 20.7rem;
+        margin-top: 70px;
+        margin-left: 20px;
+      }
+      .rating-img {
+        position: absolute;
+        background-color: #fff;
+        height: 50px;
+        top: 500px;
+        border: 1px solid black;
+      }
+      .quality-img {
+        position: absolute;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      @media screen and (min-width: 992px) {
+        .header {
+          background-color: #f3fcf7;
+        }
+        .hero {
+          background-color: #f3fcf7;
+          height: 30rem;
+          padding-top: 30px;
+        }
+        .hero-text {
+          margin-top: 50px;
+          text-align: left;
+        }
+        .hero-text h1 {
+          font-size: 65px;
+        }
+        .hero-text p {
+          margin-bottom: 30px;
+        }
+        .hero-text a {
+          text-decoration: none;
+          color: #fff;
+          background-color: #06c167;
+          padding: 15px 30px;
+        }
+        #arrow-icon {
+          margin-left: 20px;
+        }
+        .hero-img :nth-child(1) {
+          height: 35rem;
+        }
+        .brand-logo {
+          justify-content: space-between;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- MENU START -->
+    <div class="header">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg justify-content-between">
+          <div class="nav-logo">
+            <a class="navbar-brand" href="#"
+              ><img src="img/Logo.png" alt="Foodies Logo"
+            /></a>
+          </div>
+
+          <div class="toggler">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="menu d-lg-block d-none">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Service Us</a>
+                <a class="nav-link" href="#">Our Company</a>
+                <a class="nav-link" href="#">Pages</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- MENU END -->
+
+    <!-- HERO START -->
+    <div class="hero">
+      <div class="hero_container container">
+        <div class="row">
+          <!-- TEXT SECTION -->
+          <div class="hero-text col-12 col-lg-6">
+            <h1>We're Serious For Food.</h1>
+            <p>
+              We strive to provide a space where guests can connect with
+              themselves and explore their full potential, offering a safe
+              place.
+            </p>
+            <a href="#"
+              >Get Started
+              <i id="arrow-icon" class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+          <!-- IMAGE SECTION -->
+          <div class="hero-img col-12 col-lg-6">
+            <img src="./img/Sec1__img.png" alt="Sec1 img" />
+            <div class="quality-img">
+              <img src="./img/Good Quality Product.png" alt="Sec1 img" />
+            </div>
+            <div class="rating-img">
+              <img src="image/hero/quality.webp" alt="Sec1 img" />
+            </div>
+            <img src="image/hero/quality.webp" alt="Sec1 img" />
+          </div>
+          <!-- BRAND LOGO -->
+          <div class="brand_logo col-12 col-lg-6">
+            <div class="row">
+              <div class="col-6 col-lg-4">
+                <img src="image/hero/brand1.webp" alt="This is a brand logo" />
+              </div>
+              <div class="col-6 col-lg-4">
+                <img src="image/hero/brand2.webp" alt="This is a brand logo" />
+              </div>
+              <div class="col-6 col-lg-4 d-flex justify-content-end">
+                <img src="image/hero/brand3.webp" alt="This is a brand logo" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HERO END -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
