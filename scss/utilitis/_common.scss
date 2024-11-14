@@ -43,19 +43,7 @@
   font-weight: 500;
 }
 
-// It is for the bg image behind all titles in website
-// .background-image {
-//   position: relative;
-//   top: 150px;
-//   right: 50px;
-//   padding: 60px;
-//   background: url(../image/hero/dots.webp);
-//   background-repeat: no-repeat;
-//   z-index: -1;
-// }
-
 .background-image::after {
-  // border: 1px solid red;
   
   content: "";
   position: absolute;
@@ -68,6 +56,7 @@
   
   width: px-to-rem(200px);
   height: clamp(px-to-rem(160px), 10vw, px-to-rem(180px));
+  height: clamp(px-to-rem(170px), 10vw, px-to-rem(160px));
 
   z-index: -1;
 }

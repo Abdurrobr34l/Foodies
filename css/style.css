@@ -93,6 +93,7 @@ i {
   background-repeat: no-repeat;
   width: 12.5rem;
   height: clamp(10rem, 10vw, 11.25rem);
+  height: clamp(10.625rem, 10vw, 10rem);
   z-index: -1;
 }
 
