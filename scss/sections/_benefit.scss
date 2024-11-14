@@ -16,6 +16,7 @@
   }
 
   &__contents {
+    position: relative;
 
     li:not(:first-child) {
       margin-top: px-to-rem(10px);

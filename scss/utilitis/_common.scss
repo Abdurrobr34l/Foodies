@@ -16,7 +16,8 @@
 
 .section-padding {
   // padding: clamp(60px, 5vw, 100px) 0 clamp(60px, 5vw, 130px) 0;
-  padding: clamp(px-to-rem(60px), 5vw, px-to-rem(100px)) 0 clamp(px-to-rem(60px), 5vw, px-to-rem(130px)) 0;
+  padding: clamp(px-to-rem(60px), 5vw, px-to-rem(100px)) 0
+    clamp(px-to-rem(60px), 5vw, px-to-rem(130px)) 0;
 }
 
 // Font Size
@@ -43,12 +44,30 @@
 }
 
 // It is for the bg image behind all titles in website
-.background-image {
-  position: relative;
-  top: 150px;
-  right: 50px;
-  padding: 60px;
-  background: url(../image/hero/dots.webp);
+// .background-image {
+//   position: relative;
+//   top: 150px;
+//   right: 50px;
+//   padding: 60px;
+//   background: url(../image/hero/dots.webp);
+//   background-repeat: no-repeat;
+//   z-index: -1;
+// }
+
+.background-image::after {
+  // border: 1px solid red;
+  
+  content: "";
+  position: absolute;
+  top: px-to-rem(30px);
+  left: px-to-rem(-60px);
+  
+  background-image: url("../image/hero/dots.webp"); 
+  background-size: cover;
   background-repeat: no-repeat;
+  
+  width: px-to-rem(200px);
+  height: clamp(px-to-rem(160px), 10vw, px-to-rem(180px));
+
   z-index: -1;
 }

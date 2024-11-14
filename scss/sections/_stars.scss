@@ -6,6 +6,7 @@
   }
   
   &__contents {
+    position: relative;
 
     &-row {
       gap: px-to-rem(50px);
