@@ -10,11 +10,11 @@ html {
 }
 
 ::-moz-selection {
-  background-color: #06C167;
+  background-color: #F0F1EC;
 }
 
 ::selection {
-  background-color: #06C167;
+  background-color: #F0F1EC;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -47,6 +47,14 @@ i {
 
 .social {
   color: #1d1d1f;
+}
+
+.padding-top {
+  padding-top: 3.75rem;
+}
+
+.padding-bottom {
+  padding: 6.25rem 0 clamp(9.375rem, 5vw, 8.125rem);
 }
 
 .section-padding {
@@ -83,6 +91,18 @@ i {
   background: url(../../image/hero/dots.webp);
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.background-image-hero {
+  position: relative;
+  bottom: 160px;
+  left: 370px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  background: url(../../image/hero/dots.webp);
+  background-repeat: no-repeat;
+  z-index: 99;
 }
 
 .header {
@@ -126,6 +146,85 @@ i {
 }
 .header__menu .navbar-nav {
   gap: 20px;
+}
+
+.hero__wrapper {
+  background-color: #f3fcf7;
+}
+.hero__contents {
+  margin-top: 3.125rem;
+}
+.hero__contents h1 {
+  padding-right: 10rem;
+}
+.hero__contents p {
+  padding-right: 13.125rem;
+}
+.hero__image {
+  position: relative;
+}
+.hero__image .quality::after {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  width: 230px;
+  height: 50px;
+  z-index: 1;
+  top: 250px;
+  right: -40px;
+  background-image: url("./../../image/hero/quality.webp");
+  border-radius: 50px;
+}
+.hero__image .rating::after {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  width: 230px;
+  height: 50px;
+  z-index: 1;
+  top: 300px;
+  right: 370px;
+  background-image: url("./../../image/hero/rating.webp");
+  border-radius: 50px;
+}
+.hero__image .dots::after {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  right: -50px;
+  bottom: -20px;
+  width: 200px;
+  height: 200px;
+  background-image: url("./../../image/hero/dots.webp");
+}
+.hero__button a {
+  display: inline-block;
+  padding: 1.25rem 2.5rem;
+  color: #fff;
+  background-color: #06C167;
+}
+.hero__button a i {
+  margin-left: 0.9375rem;
+}
+.hero__button a:hover {
+  color: #06C167;
+  background-color: #fff;
+  outline: 0.125rem solid #06C167;
+}
+.hero__button a:hover i {
+  color: #06C167;
+}
+.hero__brands {
+  margin-top: -10.625rem;
+  background-color: #fff;
+}
+.hero__brand {
+  margin-top: -3.125rem;
+  width: 37.5rem;
+}
+.hero__brand img {
+  width: 160px;
+  height: 1.875rem;
 }
 
 .whyus__row {

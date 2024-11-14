@@ -6,6 +6,14 @@
 // }
 
 // Padding
+.padding-top {
+  padding-top: px-to-rem(60px);
+}
+.padding-bottom {
+  padding: px-to-rem(100px) 0 clamp(px-to-rem(150px), 5vw, px-to-rem(130px));
+  // padding: 100px 0 150px;
+}
+
 .section-padding {
   // padding: clamp(60px, 5vw, 100px) 0 clamp(60px, 5vw, 130px) 0;
   padding: clamp(px-to-rem(60px), 5vw, px-to-rem(100px)) 0 clamp(px-to-rem(60px), 5vw, px-to-rem(130px)) 0;
@@ -43,4 +51,17 @@
   background: url(../../image/hero/dots.webp);
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.background-image-hero {
+  position: relative;
+  bottom: 160px;
+  left: 370px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  // padding: 60px;
+  background: url(../../image/hero/dots.webp);
+  background-repeat: no-repeat;
+  z-index: 99;
 }

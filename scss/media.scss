@@ -29,6 +29,62 @@
   }
   // HEADER END
 
+    // HERO START
+    .hero {
+      &__row {
+        gap: 40px;
+      }
+
+      &__contents {
+        margin-top: 0;
+        text-align: center;
+  
+        h1,
+        p {
+          padding-right: 0;
+        }
+      }
+  
+      &__image {
+    
+        // Quality Image
+        .quality::after {
+          right: 30px;
+          top: 360px;
+        }
+    
+        // Rating Image
+        .rating::after {
+          right: 30px;
+        }
+    
+        // Dots Image
+        .dots::after {
+          right: -10px;
+          bottom: -20px;
+          width: 150px;
+          height: 150px;
+        }
+      }
+  
+      &__brands {
+        margin-top: 0;
+        padding-bottom: px-to-rem(50px);
+  
+        img {
+          margin-inline: auto;
+          display: inline-block;
+          width: 100px;
+        }
+      }
+  
+      &__brand {
+        flex-wrap: wrap;
+        width: 100%;
+      }
+    }
+    // HERO END
+
   // WHY CHOOSE US START
   .whyus {
     &__container {
@@ -154,33 +210,33 @@
   }
   // POPULAR END
 
-    // FOOTER START
-    .footer {
-      &__box {
-        text-align: center;
-          margin-bottom: px-to-rem(50px);
-  
-        &-text {
-          p {
-            padding-right: 0;
-          }
-        } 
-  
-        &-social,
-        &-email {
-          margin-inline: auto;
-        }
+  // FOOTER START
+  .footer {
+    &__box {
+      text-align: center;
+      margin-bottom: px-to-rem(50px);
 
-        &-email {
-          flex-direction: column;
+      &-text {
+        p {
+          padding-right: 0;
         }
       }
-  
-      &__box-four {
-        margin-bottom: 0;
+
+      &-social,
+      &-email {
+        margin-inline: auto;
+      }
+
+      &-email {
+        flex-direction: column;
       }
     }
-    // FOOTER END
+
+    &__box-four {
+      margin-bottom: 0;
+    }
+  }
+  // FOOTER END
 }
 
 /* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
@@ -204,6 +260,54 @@
     }
   }
   // HEADER END
+
+  // HERO START
+  .hero {
+    &__contents {
+      margin-top: 0;
+      text-align: center;
+
+      h1,
+      p {
+        padding-right: 0;
+      }
+    }
+
+    &__image {
+  
+      // Quality Image
+      .quality::after {
+        right: -20px;
+      }
+  
+      // Rating Image
+      .rating::after {
+        right: 300px;
+      }
+  
+      // Dots Image
+      .dots::after {
+        right: -20px;
+      }
+    }
+
+    &__brands {
+      margin-top: 0;
+      padding-bottom: px-to-rem(50px);
+
+      img {
+        margin-inline: auto;
+        display: inline-block;
+        width: 200px;
+      }
+    }
+
+    &__brand {
+      flex-wrap: wrap;
+      width: 510px;
+    }
+  }
+  // HERO END
 
   // WHY CHOOSE US START
   .whyus {
@@ -263,13 +367,13 @@
   .footer {
     &__box {
       text-align: center;
-        margin-bottom: px-to-rem(50px);
+      margin-bottom: px-to-rem(50px);
 
       &-text {
         p {
           padding-right: 0;
         }
-      } 
+      }
 
       &-social,
       &-email {
@@ -306,6 +410,25 @@
   }
   // HEADER END
 
+  // HERO START
+  .hero {
+    &__contents {
+      margin-top: 0;
+      text-align: center;
+
+      h1,
+      p {
+        padding-right: 0;
+      }
+    }
+
+    &__brands {
+      margin-top: 0;
+      padding-bottom: px-to-rem(50px);
+    }
+  }
+  // HERO END
+
   // WHY CHOOSE US START
   .whyus {
     &__row {
@@ -339,7 +462,6 @@
     }
 
     &__box {
-
       &-text {
         p {
           padding-right: 0;
@@ -365,6 +487,40 @@
 
 /* LARGE DEVICES (DESKTOPS, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  // HERO START
+  .hero {
+    &__contents {
+      h1 {
+        padding-right: px-to-rem(60px);
+      }
+      p {
+        padding-right: px-to-rem(100px);
+      }
+    }
+    &__image {
+      // Rating Image
+      .quality::after {
+        top: px-to-rem(180px);
+        right: px-to-rem(-40px);
+      }
+      .rating::after {
+        top: px-to-rem(250px);
+        right: px-to-rem(250px);
+      }
+      .dots::after {
+        right: -50px;
+        bottom: -20px;
+        height: 150px;
+      }
+    }
+
+    &__brands {
+      margin-top: px-to-rem(-20px);
+      padding-bottom: px-to-rem(50px);
+    }
+  }
+  // HERO END
+
   // BENEFIT START
   .benefit {
     &__image {
@@ -436,6 +592,37 @@
 
 /* EXTRA LARGE DEVICES (LARGE DESKTOPS, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  // HERO START
+  .hero {
+    &__brands {
+      margin-top: px-to-rem(-120px);
+    }
+
+    &__image {
+      // Quality Image
+      .quality::after {
+        top: 180px;
+        right: -60px;
+      }
+
+      // Rating Image
+      &::after {
+        top: 260px;
+        right: 300px;
+      }
+    }
+  }
+  // HERO END
+
+  // FOOTER START
+  .footer {
+    &__box {
+      &-email {
+        flex-direction: column;
+      }
+    }
+  }
+  // FOOTER END
 }
 
 /* EXTRA EXTRA LARGE DEVICES (LARGE DESKTOPS, 1400px and up) */

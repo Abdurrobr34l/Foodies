@@ -1,3 +1,5 @@
+@import "../function/function";
+
 .stars {
   &__row {
     gap: clamp(px-to-rem(60px), 5vw, px-to-rem(80px));

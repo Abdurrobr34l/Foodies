@@ -1,0 +1,103 @@
+@import "../function/function";
+
+.hero {
+  @mixin bg-style {
+    content: "";
+    position: absolute;
+    background-size: cover;
+    // border: 1px solid;
+  }
+
+  @mixin bg-dimension {
+    width: 230px;
+    height: 50px;
+    z-index: 1;
+  }
+
+  &__wrapper {
+    background-color: $bg-clr;
+  }
+
+  &__contents {
+    margin-top: px-to-rem(50px);
+
+    h1 {
+      padding-right: px-to-rem(160px);
+    }
+    p {
+      padding-right: px-to-rem(210px);
+    }
+  }
+
+  &__image {
+    position: relative;
+
+    // Quality Image
+    .quality::after {
+      @include bg-style;
+      @include bg-dimension;
+      top: 250px;
+      right: -40px;
+      background-image: url("./../../image/hero/quality.webp");
+      border-radius: 50px;
+    }
+
+    // Rating Image
+    .rating::after {
+      @include bg-style;
+      @include bg-dimension;
+      top: 300px;
+      right: 370px;
+      background-image: url("./../../image/hero/rating.webp");
+      border-radius: 50px;
+    }
+
+    // Dots Image
+    .dots::after {
+      @include bg-style;
+      right: -50px;
+      bottom: -20px;
+      width: 200px;
+      height: 200px;
+      background-image: url("./../../image/hero/dots.webp");
+    }
+  }
+
+  &__button {
+    a {
+      display: inline-block;
+      padding: px-to-rem(20px) px-to-rem(40px);
+      color: #fff;
+      background-color: $secondary-clr;
+
+      i {
+        margin-left: px-to-rem(15px);
+      }
+
+      &:hover {
+        color: $secondary-clr;
+        background-color: #fff;
+        outline: px-to-rem(2px) solid $secondary-clr;
+
+        i {
+          color: $secondary-clr;
+        }
+      }
+    }
+  }
+
+  &__brands {
+    margin-top: px-to-rem(-170px);
+    background-color: #fff;
+  }
+
+  &__brand {
+    margin-top: px-to-rem(-50px);
+    width: px-to-rem(600px);
+
+    img {
+      width: 160px;
+      height: px-to-rem(30px);
+    }
+  }
+}
