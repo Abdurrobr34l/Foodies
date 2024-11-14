@@ -155,25 +155,25 @@ i {
   content: "";
   position: absolute;
   background-size: cover;
-  width: 230px;
-  height: 50px;
+  width: 14.375rem;
+  height: 3.125rem;
   z-index: 1;
-  top: 250px;
-  right: -40px;
+  top: 15.625rem;
+  right: -2.5rem;
   background-image: url("./../../image/hero/quality.webp");
-  border-radius: 50px;
+  border-radius: 3.125rem;
 }
 .hero__image .rating::after {
   content: "";
   position: absolute;
   background-size: cover;
-  width: 230px;
-  height: 50px;
+  width: 14.375rem;
+  height: 3.125rem;
   z-index: 1;
-  top: 300px;
-  right: 370px;
+  top: 18.75rem;
+  right: 23.125rem;
   background-image: url("./../../image/hero/rating.webp");
-  border-radius: 50px;
+  border-radius: 3.125rem;
 }
 .hero__image .dots::after {
   content: "";
@@ -390,6 +390,7 @@ i {
   place-content: center;
   height: 28.75rem;
   background-image: url(../../image/contact/img.webp);
+  background-image: url(../image/contact/img.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }

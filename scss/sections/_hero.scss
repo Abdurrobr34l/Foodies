@@ -5,12 +5,11 @@
     content: "";
     position: absolute;
     background-size: cover;
-    // border: 1px solid;
   }
 
   @mixin bg-dimension {
-    width: 230px;
-    height: 50px;
+    width: px-to-rem(230px);
+    height: px-to-rem(50px);
     z-index: 1;
   }
 
@@ -36,20 +35,20 @@
     .quality::after {
       @include bg-style;
       @include bg-dimension;
-      top: 250px;
-      right: -40px;
+      top: px-to-rem(250px);
+      right: px-to-rem(-40px);
       background-image: url("./../../image/hero/quality.webp");
-      border-radius: 50px;
+      border-radius: px-to-rem(50px);
     }
 
     // Rating Image
     .rating::after {
       @include bg-style;
       @include bg-dimension;
-      top: 300px;
-      right: 370px;
+      top: px-to-rem(300px);
+      right: px-to-rem(370px);
       background-image: url("./../../image/hero/rating.webp");
-      border-radius: 50px;
+      border-radius: px-to-rem(50px);
     }
 
     // Dots Image
