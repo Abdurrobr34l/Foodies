@@ -88,7 +88,7 @@ i {
   top: 150px;
   right: 50px;
   padding: 60px;
-  background: url(../../image/hero/dots.webp);
+  background: url(../image/hero/dots.webp);
   background-repeat: no-repeat;
   z-index: -1;
 }
@@ -160,7 +160,7 @@ i {
   z-index: 1;
   top: 15.625rem;
   right: -2.5rem;
-  background-image: url("./../../image/hero/quality.webp");
+  background-image: url("../image/hero/quality.webp");
   border-radius: 3.125rem;
 }
 .hero__image .rating::after {
@@ -172,7 +172,7 @@ i {
   z-index: 1;
   top: 18.75rem;
   right: 23.125rem;
-  background-image: url("./../../image/hero/rating.webp");
+  background-image: url("../image/hero/rating.webp");
   border-radius: 3.125rem;
 }
 .hero__image .dots::after {
@@ -183,7 +183,7 @@ i {
   bottom: -1.25rem;
   width: 12.5rem;
   height: 12.5rem;
-  background-image: url("./../../image/hero/dots.webp");
+  background-image: url("../image/hero/dots.webp");
 }
 .hero__button a {
   display: inline-block;
@@ -389,7 +389,6 @@ i {
 .contact__container {
   place-content: center;
   height: 28.75rem;
-  background-image: url(../../image/contact/img.webp);
   background-image: url(../image/contact/img.webp);
   background-repeat: no-repeat;
   background-size: cover;

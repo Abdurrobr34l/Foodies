@@ -37,7 +37,7 @@
       @include bg-dimension;
       top: px-to-rem(250px);
       right: px-to-rem(-40px);
-      background-image: url("./../../image/hero/quality.webp");
+      background-image: url("../image/hero/quality.webp");
       border-radius: px-to-rem(50px);
     }
 
@@ -47,7 +47,7 @@
       @include bg-dimension;
       top: px-to-rem(300px);
       right: px-to-rem(370px);
-      background-image: url("./../../image/hero/rating.webp");
+      background-image: url("../image/hero/rating.webp");
       border-radius: px-to-rem(50px);
     }
 
@@ -58,7 +58,7 @@
       bottom: px-to-rem(-20px);
       width: px-to-rem(200px);
       height: px-to-rem(200px);
-      background-image: url("./../../image/hero/dots.webp");
+      background-image: url("../image/hero/dots.webp");
     }
   }
 
