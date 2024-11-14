@@ -16,7 +16,7 @@
     margin-inline: auto;
   }
   .hero__row {
-    gap: 40px;
+    gap: 2.5rem;
   }
   .hero__contents {
     margin-top: 0;
@@ -26,27 +26,30 @@
   .hero__contents p {
     padding-right: 0;
   }
+  .hero__image {
+    height: 20.625rem;
+  }
   .hero__image .quality::after {
-    right: 30px;
-    top: 360px;
+    right: 1.875rem;
+    top: 22.5rem;
   }
   .hero__image .rating::after {
-    right: 30px;
+    right: 1.875rem;
   }
   .hero__image .dots::after {
-    right: -10px;
-    bottom: -20px;
-    width: 150px;
-    height: 150px;
+    right: -0.625rem;
+    bottom: -6.25rem;
+    width: 9.375rem;
+    height: 9.375rem;
   }
   .hero__brands {
-    margin-top: 0;
+    margin-top: 3.75rem;
     padding-bottom: 3.125rem;
   }
   .hero__brands img {
     margin-inline: auto;
     display: inline-block;
-    width: 100px;
+    width: 6.25rem;
   }
   .hero__brand {
     -ms-flex-wrap: wrap;
@@ -167,7 +170,7 @@
 /* SMALL DEVICES (LANSCAPE PHONE, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .header__container {
-    gap: 30px;
+    gap: 1.875rem;
   }
   .header__menu {
     padding: 1.25rem 0 2.5rem;
@@ -187,13 +190,13 @@
     padding-right: 0;
   }
   .hero__image .quality::after {
-    right: -20px;
+    right: -1.25rem;
   }
   .hero__image .rating::after {
-    right: 300px;
+    right: 18.75rem;
   }
   .hero__image .dots::after {
-    right: -20px;
+    right: -1.25rem;
   }
   .hero__brands {
     margin-top: 0;
@@ -207,7 +210,7 @@
   .hero__brand {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 510px;
+    width: 31.875rem;
   }
   .whyus__row {
     gap: 1.25rem;
@@ -340,9 +343,9 @@
     right: 15.625rem;
   }
   .hero__image .dots::after {
-    right: -50px;
-    bottom: -20px;
-    height: 150px;
+    right: -3.125rem;
+    bottom: -1.25rem;
+    height: 9.375rem;
   }
   .hero__brands {
     margin-top: -1.25rem;
@@ -385,12 +388,12 @@
     margin-top: -7.5rem;
   }
   .hero__image .quality::after {
-    top: 180px;
-    right: -60px;
+    top: 11.25rem;
+    right: -3.75rem;
   }
   .hero__image::after {
-    top: 260px;
-    right: 300px;
+    top: 16.25rem;
+    right: 18.75rem;
   }
   .footer__box-email {
     -webkit-box-orient: vertical;

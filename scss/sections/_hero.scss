@@ -55,10 +55,10 @@
     // Dots Image
     .dots::after {
       @include bg-style;
-      right: -50px;
-      bottom: -20px;
-      width: 200px;
-      height: 200px;
+      right: px-to-rem(-50px);
+      bottom: px-to-rem(-20px);
+      width: px-to-rem(200px);
+      height: px-to-rem(200px);
       background-image: url("./../../image/hero/dots.webp");
     }
   }
@@ -96,7 +96,7 @@
     width: px-to-rem(600px);
 
     img {
-      width: 160px;
+      width: px-to-rem(160px);
       height: px-to-rem(30px);
     }
   }
