@@ -27,33 +27,36 @@
     padding-right: 0;
   }
   .hero__image {
-    height: 20.625rem;
+    height: 25rem;
   }
   .hero__image .quality::after {
-    right: 1.875rem;
-    top: 22.5rem;
+    right: 3.125rem;
+    top: 27.5rem;
   }
   .hero__image .rating::after {
-    right: 1.875rem;
+    top: 23.75rem;
+    right: 3.125rem;
   }
   .hero__image .dots::after {
     right: -0.625rem;
-    bottom: -6.25rem;
+    bottom: -2.5rem;
     width: 9.375rem;
-    height: 9.375rem;
+    height: 6.25rem;
   }
   .hero__brands {
-    margin-top: 3.75rem;
+    margin-top: 4.375rem;
     padding-bottom: 3.125rem;
   }
   .hero__brands img {
     margin-inline: auto;
     display: inline-block;
-    width: 6.25rem;
+    width: 8.125rem;
+    z-index: 1000;
   }
   .hero__brand {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    gap: 1.25rem;
     width: 100%;
   }
   .whyus__container {

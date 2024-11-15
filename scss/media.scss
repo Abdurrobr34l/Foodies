@@ -1,8 +1,6 @@
 @import "./function/function";
 @import "./utilitis/variable";
 
-
-
 /* EXTRA SMALL DEVICES (PORTRAIT PHONE, less than 576px) */
 @media (max-width: 575.98px) {
   // COMMON STYLE CSS START
@@ -48,41 +46,44 @@
     }
 
     &__image {
-      height: px-to-rem(330px);
+      height: px-to-rem(400px);
 
       // Quality Image
       .quality::after {
-        right: px-to-rem(30px);
-        top: px-to-rem(360px);
+        right: px-to-rem(50px);
+        top: px-to-rem(440px);
       }
-
+      
       // Rating Image
       .rating::after {
-        right: px-to-rem(30px);
+        top: px-to-rem(380px);
+        right: px-to-rem(50px);
       }
 
       // Dots Image
       .dots::after {
         right: px-to-rem(-10px);
-        bottom: px-to-rem(-100px);
+        bottom: px-to-rem(-40px);
         width: px-to-rem(150px);
-        height: px-to-rem(150px);
+        height: px-to-rem(100px);
       }
     }
 
     &__brands {
-      margin-top: px-to-rem(60px);
+      margin-top: px-to-rem(70px);
       padding-bottom: px-to-rem(50px);
 
       img {
         margin-inline: auto;
         display: inline-block;
-        width: px-to-rem(100px);
+        width: px-to-rem(130px);
+        z-index: 1000;
       }
     }
 
     &__brand {
       flex-wrap: wrap;
+      gap: px-to-rem(20px);
       width: 100%;
     }
   }
